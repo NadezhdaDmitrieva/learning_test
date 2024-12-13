@@ -37,10 +37,12 @@ class Fraction:
 
 
      def __str__(self) -> str:
-          return f'({str(self.number_numerator)}/{str(self.number_denominator)})'
+          return f'({str(self.number_numerator)}/
+                 {str(self.number_denominator)})'
    
      def __repr__(self):
-          return f'Fraction({str(self.number_numerator)}, {str(self.number_denominator)})'
+          return f'Fraction({str(self.number_numerator)}, 
+                 {str(self.number_denominator)})'
 
 
 
